@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Agrasen Properties</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #1B263B;
+    }
+
+    header {
+      background: #1B263B;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-section {
+      max-width: 700px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-section h2 {
+      font-size: 2rem;
+      color: #B9975B;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    input, textarea {
+      padding: 14px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    button {
+      background: linear-gradient(90deg, #B9975B, #8C6D1F);
+      color: white;
+      font-weight: 600;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #8C6D1F, #B9975B);
+    }
+
+    .whatsapp-box {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .whatsapp-box a {
+      background: #25D366;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1rem;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-box a:hover {
+      background: #1ebe57;
+    }
+
+    footer {
+      background: #1B263B;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agrasen Properties</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings.html">Properties</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Full Name" required />
+      <input type="email" name="email" placeholder="Your Email Address" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" required />
+      <textarea name="message" placeholder="Write your message or enquiry here..." required></textarea>
+      <button type="submit">Send Enquiry</button>
+    </form>
+
+    <div class="whatsapp-box">
+      <p style="margin: 20px 0; font-weight: 600;">Prefer WhatsApp?</p>
+      <a href="https://wa.me/919999999999" target="_blank">Chat with Us on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Agrasen Properties. All rights reserved.
+  </footer>
+</body>
+</html>
